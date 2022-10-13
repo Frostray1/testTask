@@ -1,0 +1,137 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.productСard {
+  box-sizing: border-box;
+  width: 341px;
+  height: 603px;
+  margin-left: 16px;
+  margin-right: 17px;
+  margin-top: 27px;
+  border: 0.3px solid #828282;
+  border-radius: 16px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); */
+}
+.productСard img {
+  width: 341px;
+  height: 220px;
+}
+.miniTime {
+}
+.iconTime {
+  width: 16px;
+  height: 16px;
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+.miniTime p {
+  text-align: center;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  opacity: 0.3;
+  padding-left: 37px;
+  margin-top: 14px;
+}
+
+.stock {
+  margin-top: -15px;
+  width: 317px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  color: #404040;
+  /* text-align: justify; */
+}
+ul {
+  /* margin: 0px;
+padding: 0px;*/
+}
+
+.list li {
+  /* list-style-type: none; */
+  list-style-image: url(/img/Vector.png);
+  padding-left: 15px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 9px;
+  color: #4b4b4b;
+}
+
+.outTime {
+  list-style-type: none;
+  display: flex;
+  padding-left: 40px;
+}
+
+.outTime li {
+  margin-left: 4px;
+  width: 63px;
+  height: 24px;
+  border: 1px solid #d9e8ff;
+  background: #d9e8ff;
+  border-radius: 11px;
+  text-align: center;
+  font-size: 14px;
+  color: #343434;
+}
+
+.price {
+  display: inline-block;
+  padding-left: 19px;
+}
+
+.price h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.price p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.button {
+   
+  display: inline-block;
+  vertical-align: middle;
+ 
+  border: 0.5px solid #cba500;
+  border-radius: 20px;
+  background: #fed74b;
+  width: 165px;
+  height: 44px;
+  margin-left: 150px;
+  text-align: center;
+  /* margin-top: -60px; */
+}
+.button a {
+  /* box-sizing: border-box; */
+ 
+  text-decoration: none;
+}
