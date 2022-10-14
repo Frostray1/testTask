@@ -93,6 +93,10 @@ padding: 0px;*/
   color: #343434;
 }
 
+.outTime li:hover{
+  background: #d9e8ff90;
+}
+
 .price {
   display: inline-block;
   padding-left: 19px;
@@ -135,6 +139,10 @@ padding: 0px;*/
   text-decoration: none;
   margin-top: 10px;
   color: #404040;
+}
+
+.button:hover{
+  background: #fdc701a3;
 }
 
 @media (min-width: 1120px) {
