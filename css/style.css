@@ -10,7 +10,7 @@ body {
   height: 603px;
   margin-left: 16px;
   margin-right: 17px;
-  margin-top: 27px;
+  margin-top: 270px;
   border: 0.3px solid #828282;
   border-radius: 16px;
 }
@@ -139,15 +139,8 @@ padding: 0px;*/
 
 @media (min-width: 1120px) {
   .productСard {
-    position: relative;
-    box-sizing: border-box;
     width: 1106px;
     height: 370px;
-    margin-left: 16px;
-    margin-right: 17px;
-    margin-top: 27px;
-    border: 0.3px solid #828282;
-    border-radius: 16px;
   }
   .productСard img {
     border-radius: 16px;
@@ -161,27 +154,9 @@ padding: 0px;*/
     margin-top: 80px;
     margin-left: 23px;
   }
-  .iconTime {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    opacity: 0.3;
-    position: absolute;
-    margin-left: 12px;
-    margin-top: 16px;
-  }
 
   .miniTime p {
-    text-align: center;
-    display: inline-block;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
-    opacity: 0.3;
-    padding-left: 37px;
-    margin-top: 14px;
   }
 
   .stock {
@@ -192,17 +167,10 @@ padding: 0px;*/
     margin-top: 12px;
     margin-left: 23px;
     margin-right: 17px;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 400;
     font-size: 26px;
-    line-height: 34px;
-    color: #000000;
-    /* text-align: justify; */
   }
   .stock h3 {
     margin-top: 0px;
-
     width: 557px;
     font-family: "Open Sans";
     font-style: normal;
@@ -210,7 +178,6 @@ padding: 0px;*/
     font-size: 26px;
     line-height: 34px;
     color: #000000;
-    /* text-align: justify; */
   }
   .list {
     position: absolute;
@@ -258,8 +225,7 @@ padding: 0px;*/
     height: 52px;
   }
 
-
-  .button a{
+  .button a {
     font-size: 18px;
   }
 }
