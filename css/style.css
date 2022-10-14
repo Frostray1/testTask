@@ -13,8 +13,8 @@ body {
   margin-top: 27px;
   border: 0.3px solid #828282;
   border-radius: 16px;
-  /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.15); */
 }
+
 .productСard img {
   width: 341px;
   height: 220px;
@@ -75,11 +75,12 @@ padding: 0px;*/
 }
 
 .outTime {
+  padding-left: 10px;
+}
+.outTime ul {
   list-style-type: none;
   display: flex;
-  padding-left: 40px;
 }
-
 .outTime li {
   margin-left: 4px;
   width: 63px;
@@ -117,9 +118,8 @@ padding: 0px;*/
 }
 
 .button {
-   
   display: block;
- 
+
   border: 0.5px solid #cba500;
   border-radius: 20px;
   background: #fed74b;
@@ -130,9 +130,136 @@ padding: 0px;*/
   margin-top: -63px;
 }
 .button a {
-  /* box-sizing: border-box; */
   display: inline-block;
   text-align: center;
   text-decoration: none;
   margin-top: 10px;
+  color: #404040;
+}
+
+@media (min-width: 1120px) {
+  .productСard {
+    position: relative;
+    box-sizing: border-box;
+    width: 1106px;
+    height: 370px;
+    margin-left: 16px;
+    margin-right: 17px;
+    margin-top: 27px;
+    border: 0.3px solid #828282;
+    border-radius: 16px;
+  }
+  .productСard img {
+    border-radius: 16px;
+    display: inline-block;
+    width: 472px;
+    height: 369px;
+  }
+  .miniTime {
+    display: inline-block;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 23px;
+  }
+  .iconTime {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    opacity: 0.3;
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 16px;
+  }
+
+  .miniTime p {
+    text-align: center;
+    display: inline-block;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.3;
+    padding-left: 37px;
+    margin-top: 14px;
+  }
+
+  .stock {
+    display: inline-block;
+    position: absolute;
+    width: 557px;
+    height: 70px;
+    margin-top: 12px;
+    margin-left: 23px;
+    margin-right: 17px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #000000;
+    /* text-align: justify; */
+  }
+  .stock h3 {
+    margin-top: 0px;
+
+    width: 557px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #000000;
+    /* text-align: justify; */
+  }
+  .list {
+    position: absolute;
+    display: inline-block;
+    margin-top: 105px;
+    margin-left: 19px;
+  }
+  .list li {
+    font-size: 18px;
+    padding-bottom: 7px;
+  }
+
+  .outTime {
+    position: absolute;
+    display: inline-block;
+
+    margin-top: 220px;
+    margin-left: 254px;
+  }
+
+  .outTime li {
+    font-size: 16px;
+    width: 73px;
+    height: 28px;
+  }
+  .price {
+    display: inline-block;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 290px;
+  }
+  .price h3 {
+    font-size: 36px;
+  }
+  .price p {
+    font-size: 14px;
+  }
+
+  .button {
+    display: inline-block;
+    position: absolute;
+    margin-top: 294px;
+    margin-left: 190px;
+    width: 187px;
+    height: 52px;
+  }
+
+
+  .button a{
+    font-size: 18px;
+  }
 }
